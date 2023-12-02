@@ -227,7 +227,7 @@ section{
 }
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax20rem, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
     gap: 2rem;
 }
 .services .box-container .box{
@@ -240,6 +240,7 @@ section{
 .services .box-container .box i{
     color: var(--green);
     font-size: 5rem;
+    padding-bottom: .5rem;
 }
 .services .box-container .box h3{
     color: var(--black);
