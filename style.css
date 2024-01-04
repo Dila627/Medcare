@@ -383,12 +383,17 @@ section{
     overflow: hidden;
     z-index: 0;
 }
+.image-wrapper{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
 .review .box-container .box img{
-    height: 10rem;
-    width: 10rem;
+     height: 87%;
+     width: 83%; 
     border-radius: 50%;
     object-fit: cover;
-    border: 5rem solid #fff;
+    /* border: 5rem solid #fff; */
 
 }
 .review .box-container .box h3{
